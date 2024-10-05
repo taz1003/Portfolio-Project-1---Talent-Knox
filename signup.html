@@ -38,7 +38,7 @@
     <main>
         <section id="signup">
             <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
-                <h2>Let's Get Signed Up!</h2>
+                <h1>Let's Get Signed Up!</h1>
 
                 <label for="full-name">Full Name</label>
                 <input type="name" id="full-name" name="full_name" class="info-input" required>
@@ -66,6 +66,26 @@
                         <option value="Limerick">Limerick</option>
                     </select>
                 </div>
+
+                <div class="radio-buttons">
+                    <div>
+                        <h3>Select Your Talent</h3>
+
+                        <label for="singer">Singer</label>
+                        <input type="radio" id="singer" name="select_talent" value="singer" required checked>
+                    </div>
+                    <div>
+                        <label for="dancer">Dancer</label>
+                        <input type="radio" id="dancer" name="select_talent" value="dancer" required>
+                    </div>
+                    <div>
+                        <label for="other">Other Skills</label>
+                        <input type="radio" id="other" name="select_talent" value="other-skills" required>
+                        <input type="text" name="select_talent" placeholder="Please Specify" required>
+                    </div>
+                </div>
+
+                
 
 
             </form>
