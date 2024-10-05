@@ -27,7 +27,7 @@
             <h1 id="logo">Talent Knox</h1>
         </a>
         <nav>
-            <ul id="menu"></ul>
+            <ul id="menu">
             <li><a href="index.html" rel="home" class="active">Home</a></li>
             <li><a href="about.html" rel="aboutus">About Us</a></li>
             <li><a href="signup.html" rel="signup">Sign Up</a></li>
@@ -38,18 +38,19 @@
     <main>
         <section id="signup">
             <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
-                <h1>Let's Get Signed Up!</h1>
+                <h2>Let's Get Signed Up!</h2>
 
                 <label for="full-name">Full Name</label>
-                <input type="name" id="full-name" name="full_name" class="info-input" required>
+                <input type="text" id="full-name" name="full_name" class="info-input" required>
                 <br>
                 <label for="email-address">Email</label>
                 <input type="email" id="email-address" name="email_address" class="info-input" required>
 
                 <div id="age-selector">
                     <label for="age" class="info-input">Age</label>
-                    <select id="age" name="age" required>
-                        <option value="under-20">Under 20</option>
+                    <select id="age" name="age" required size="1">
+                        <option value="" disabled selected>Select an age</option>
+                        <option value="6-20">6-20</option>
                         <option value="20s">20-29</option>
                         <option value="30s">30-39</option>
                         <option value="40s">40-49</option>
@@ -60,7 +61,7 @@
 
                 <div id="location-selector">
                     <label for="select-location">Select Location</label>
-                    <select name="location" id="select-location" class="info-input" name="select_location">
+                    <select name="location" id="select-location" class="info-input">
                         <option value="Dublin">Dublin</option>
                         <option value="Galway">Galway</option>
                         <option value="Limerick">Limerick</option>
@@ -69,7 +70,7 @@
 
                 <div class="radio-buttons">
                     <div>
-                        <h3>Select Your Talent</h3>
+                        <h4>Select Your Talent</h4>
 
                         <label for="singer">Singer</label>
                         <input type="radio" id="singer" name="select_talent" value="singer" required checked>
@@ -84,7 +85,7 @@
                     </div>
                 </div>
 
-                <div id="tell-us"></div>
+                <div id="tell-us">
                 <label for="yourself">Tell Us About Yourself (Optional)</label>
                 <br>
                 <textarea name="yourself" id="yourself" rows="5" cols="35"></textarea>
@@ -99,7 +100,7 @@
     </main>
 
     <footer>
-        <section id="contact"></section>
+        <section id="contact">
         <div>
             <h4>Contact Us</h4>
             <p><strong>Knox Talent Productions</strong></p>
