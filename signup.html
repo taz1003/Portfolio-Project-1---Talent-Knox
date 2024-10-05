@@ -46,7 +46,19 @@
                 <label for="email-address">Email</label>
                 <input type="email" id="email-address" name="email_address" class="info-input" required>
 
-                <div id="selector">
+                <div id="age-selector">
+                    <label for="age" class="info-input">Age</label>
+                    <select id="age" name="age" required>
+                        <option value="under-20">Under 20</option>
+                        <option value="20s">20-29</option>
+                        <option value="30s">30-39</option>
+                        <option value="40s">40-49</option>
+                        <option value="50s">50-59</option>
+                        <option value="60+">60+</option>
+                    </select>
+                </div>
+
+                <div id="location-selector">
                     <label for="select-location">Select Location</label>
                     <select name="location" id="select-location" class="info-input" name="select_location">
                         <option value="Dublin">Dublin</option>
@@ -55,23 +67,22 @@
                     </select>
                 </div>
 
-                <div></div>
-                
+
             </form>
         </section>
     </main>
 
     <footer>
         <section id="contact"></section>
-            <div>
-                <h4>Contact Us</h4>
-                <p><strong>Knox Talent Productions</strong></p>
-                <p>42 Grafton Street
-                    Dublin 2, D02 X285
-                    Ireland</p>
-                <p><strong>Phone</strong> +353 234 5678</p>
-                <p><strong>Email</strong> knoxtalents@gmail.com</p>
-            </div>
+        <div>
+            <h4>Contact Us</h4>
+            <p><strong>Knox Talent Productions</strong></p>
+            <p>42 Grafton Street
+                Dublin 2, D02 X285
+                Ireland</p>
+            <p><strong>Phone</strong> +353 234 5678</p>
+            <p><strong>Email</strong> knoxtalents@gmail.com</p>
+        </div>
         </section>
         <section>
             <ul id="social-netwoks">
