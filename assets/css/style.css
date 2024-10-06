@@ -21,7 +21,7 @@ header {
     z-index: 99;
     padding: 0 1rem;
     width: 100%;
-    box-shadow: 0 1.8px 1.8px #1d1c1d;
+    box-shadow: 0 2px 2x #1d1c1d;
 }
 
 header a {
@@ -33,14 +33,38 @@ header a {
     font-family: 'Caesar Dressing', sans-serif;
 }
 
+nav {
+    position: absolute;
+    left: 18%;
+    width: 10em;
+    background-color: #303030;
+    width: rem;
+    text-align: center;
+    padding-right: 2em;
+    border-bottom: 2px solid #1d1c1d;
+    box-shadow: 0 2px 2px #1d1c1d;
+}
+
 #menu {
     list-style-type: none;
     font-size: 130%;
+    
 }
 
 #menu > li {
     margin-bottom: 1em;
 }
+
+
+
+.fa-solid {
+    background-color: #08daff;
+}
+
+.nav-toggle-label {
+    color: #cfcfcf;
+}
+
 
 main {
     flex: 1 0 auto;
