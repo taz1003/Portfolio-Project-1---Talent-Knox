@@ -16,6 +16,15 @@ body {
     color: #cfcfcf;
 }
 
+header {
+    background-color: #303030;
+    position: fixed;
+    z-index: 99;
+    padding: 0 1rem;
+    width: 100%;
+    box-shadow: 0 1.8px 1.8px #1d1c1d;
+}
+
 main {
     flex: 1 0 auto;
 }
