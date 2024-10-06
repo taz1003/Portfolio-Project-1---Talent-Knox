@@ -25,6 +25,15 @@ header {
     box-shadow: 0 1.8px 1.8px #1d1c1d;
 }
 
+header a {
+    text-decoration: none;
+    color: #08daff;
+}
+
+#menu {
+    list-style: none;
+}
+
 main {
     flex: 1 0 auto;
 }
