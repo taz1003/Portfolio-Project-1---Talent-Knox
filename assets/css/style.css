@@ -106,6 +106,7 @@ main h1 {
 
     nav {
         display: flex;
+        justify-content: space-around;
         position: relative;
         box-shadow: none;
         width: fit-content;
@@ -115,11 +116,23 @@ main h1 {
         margin: 0%;
     }
 
+    #logo {
+        padding-top: 18px;
+    }
+
     #menu {
         display: flex;
     }
 
     #menu>li {
         padding-left: 1em;
+    }
+    
+    .nav-toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 150px;
     }
 }
