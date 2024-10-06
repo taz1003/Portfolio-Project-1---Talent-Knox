@@ -19,9 +19,12 @@ header {
     background-color: #303030;
     position: fixed;
     z-index: 99;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     width: 100%;
-    box-shadow: 0 2px 2x #1d1c1d;
+    border-bottom: 2px solid #1d1c1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -35,37 +38,46 @@ header a {
 
 nav {
     position: absolute;
-    left: 18%;
-    width: 10em;
-    background-color: #303030;
-    width: rem;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.97);
     text-align: center;
-    padding-right: 2em;
+    padding-right: 40%;
+    margin-left: 40%;
     border-bottom: 2px solid #1d1c1d;
+    border-left: 2px solid #1d1c1d;
     box-shadow: 0 2px 2px #1d1c1d;
     display: none;
+    top: 100%;
+}
+
+.fa-bars {
+    color: #08daff;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 #menu {
     list-style-type: none;
-    font-size: 130%;
-    
+    font-size: 150%;
 }
 
 #menu > li {
     margin-bottom: 1em;
 }
 
-
-
-.fa-solid {
-    background-color: #08daff;
+.active {
+    border-bottom: 1px dotted #08daff;
 }
 
-.nav-toggle-label {
-    color: #cfcfcf;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
 
 main {
     flex: 1 0 auto;
@@ -75,3 +87,6 @@ main h1 {
     font-family: 'Raleway', sans-serif;
 }
 
+#hero-img {
+    width: 100%;
+}
