@@ -34,7 +34,12 @@ header a {
 }
 
 #menu {
-    list-style: none;
+    list-style-type: none;
+    font-size: 130%;
+}
+
+#menu > li {
+    margin-bottom: 1em;
 }
 
 main {
