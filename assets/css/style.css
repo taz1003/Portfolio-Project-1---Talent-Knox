@@ -131,6 +131,32 @@ main hr {
     padding: 1em;
 }
 
+#arts {
+    margin-bottom: 1em;
+}
+
+#arts > h2 {
+    font-weight: 500;
+    margin-bottom: 0.7em;
+}
+
+#arts-p {
+    margin-bottom: 1em;
+}
+
+#melody, #dance, #skills {
+    margin-bottom: 0.8em;
+}
+
+#melody > h4, #dance > h4, #skills > h4 {
+    margin-bottom: 0.8em;
+}
+
+/* Icons */
+#show-us i {
+    color: #08daff;
+}
+
 /* Footer */
 footer {
     background-color: #303030;
