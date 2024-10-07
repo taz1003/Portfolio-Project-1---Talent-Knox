@@ -98,12 +98,26 @@ main h1 {
     width: 100%;
 }
 
-/* footer {
+footer {
     background-color: #303030;
     margin-top: 2rem;
+}
+
+#socials {
+    text-align: center;
     padding: 1em 1em;
     display: flex;
-} */
+    justify-content: space-evenly;
+}
+
+#socials > li {
+    list-style-type: none;
+}
+
+#socials i {
+    font-size: 180%;
+    color: #08daff;
+}
 
 
 /* Media query for larger screens(490px and up) */
