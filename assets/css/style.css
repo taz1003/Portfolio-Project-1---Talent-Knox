@@ -98,6 +98,14 @@ main h1 {
     width: 100%;
 }
 
+/* footer {
+    background-color: #303030;
+    margin-top: 2rem;
+    padding: 1em 1em;
+    display: flex;
+} */
+
+
 /* Media query for larger screens(490px and up) */
 @media screen and (min-width: 490px) {
 
