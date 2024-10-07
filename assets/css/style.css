@@ -158,10 +158,28 @@ main hr {
 
 /* 'Competition' Section */
 #competition {
-    border: 1px solid #1f1f1f;
+    border: 1px solid #303030;
     background-color: #cfcfcf;
     color: #1f1f1f;
     padding: 1em;
+}
+
+#locations {
+    margin-bottom: 2em;
+}
+
+#locations > h2 {
+    padding-bottom: 0.5em;
+}
+
+/* 'Competition' section- 1st, 2nd & 3rd divs */
+#dublin, #galway, #limerick {
+    padding: 0.5em 0;
+}
+
+#dublin > p, #galway > p, #limerick > p {
+    font-size: 110%;
+    font-weight: 450;
 }
 
 /* Footer */
