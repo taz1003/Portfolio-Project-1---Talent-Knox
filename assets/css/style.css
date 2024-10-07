@@ -52,6 +52,7 @@ nav {
     top: 100%;
 }
 
+/* Toggle Button */
 .fa-bars {
     color: #08daff;
 }
@@ -60,6 +61,7 @@ nav {
     font-size: 2rem;
 }
 
+/* Nav Menu */
 #menu {
     list-style-type: none;
     font-size: 150%;
@@ -69,10 +71,12 @@ nav {
     margin-bottom: 1em;
 }
 
+/* Located at Nav */
 .active {
     border-bottom: 1px dotted #08daff;
 }
 
+/* For mobile screens to hide nav menu */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -95,18 +99,16 @@ main h1 {
 }
 
 /* Media query for larger screens(490px and up) */
-
 @media screen and (min-width: 490px) {
+
     nav {
-       margin-left: 60%;
-       padding-right: 60%;
+        margin-left: 60%;
+        padding-right: 60%;
     }
 }
 
 /* Media query for tablets and larger screens(768px and up) */
-
 @media screen and (min-width: 768px) {
-    /* header */
 
     header {
         font-size: 100%;
@@ -130,6 +132,7 @@ main h1 {
         padding-top: 12px;
     }
 
+    /* Nav menu */
     #menu {
         display: flex;
         padding-bottom: 10px;
@@ -139,6 +142,7 @@ main h1 {
         padding-left: 1em;
     }
 
+    /* Nav toggle button */
     .nav-toggle-label {
         display: none;
     }
@@ -149,7 +153,6 @@ main h1 {
 }
 
 /* Media query for laptops (992px and up) */
-
 @media screen and (min-width: 992px) {
 
     #logo {

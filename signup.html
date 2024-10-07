@@ -21,13 +21,16 @@
 </head>
 
 <body>
+
     <!-- Header -->
+
     <header>
         <a href="index.html">
             <h1 id="logo">Talent Knox</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+
         <nav>
             <ul id="menu">
                 <li><a href="index.html" rel="home" class="active">Home</a></li>
@@ -37,17 +40,22 @@
         </nav>
     </header>
 
+    <!-- Main -->
+
     <main>
         <section id="signup">
+
             <form id="signup-form" action="https://formdump.codeinstitute.net" method="POST">
                 <h2>Let's Get Signed Up!</h2>
 
+                <!-- Name and Email -->
                 <label for="full-name">Full Name</label>
                 <input type="text" id="full-name" name="full_name" class="info-input" required>
                 <br>
                 <label for="email-address">Email</label>
                 <input type="email" id="email-address" name="email_address" class="info-input" required>
 
+                <!-- Age -->
                 <div id="age-selector">
                     <label for="age" class="info-input">Age</label>
                     <select id="age" name="age" required size="1">
@@ -61,6 +69,7 @@
                     </select>
                 </div>
 
+                <!-- Desired Loation -->
                 <div id="location-selector">
                     <label for="select-location">Select Location</label>
                     <select name="location" id="select-location" class="info-input">
@@ -70,6 +79,7 @@
                     </select>
                 </div>
 
+                <!-- Talent -->
                 <div class="radio-buttons">
                     <div>
                         <h4>Select Your Talent</h4>
@@ -87,11 +97,14 @@
                     </div>
                 </div>
 
+                <!-- "Yourself" -->
                 <div id="tell-us">
                     <label for="yourself">Tell Us About Yourself (Optional)</label>
                     <br>
                     <textarea name="yourself" id="yourself" rows="5" cols="35"></textarea>
                 </div>
+
+                <!-- Submit -->
                 <div>
                     <button type="submit" class="join-button">Submit</button>
                     <button type="reset" class="reset-button">Reset</button>
@@ -101,7 +114,10 @@
         </section>
     </main>
 
+    <!-- Footer -->
+
     <footer>
+
         <section id="contact">
             <div>
                 <h4>Contact Us</h4>
@@ -113,6 +129,7 @@
                 <p><strong>Email</strong> knoxtalents@gmail.com</p>
             </div>
         </section>
+
         <section>
             <ul id="social-netwoks">
                 <li><a href="https://wwww.facebook.com" target="_blank" rel="noopener"
@@ -129,8 +146,10 @@
                         <i class="fa-brands fa-instagram"></i></a></li>
             </ul>
         </section>
+
     </footer>
 
+    <!-- Fontawsome kit -->
     <script src="https://kit.fontawesome.com/19b85f3a7b.js" crossorigin="anonymous"></script>
 
 </body>
