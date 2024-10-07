@@ -115,8 +115,20 @@ main hr {
     padding:0 5% 5%;
 }
 
+/* Hero Image */
 #hero-img {
     width: 100%;
+}
+
+/* 'Show Us' Section */
+.container {
+    border: 1px solid #cfcfcf;
+    background-color: #303030;
+    margin: 2rem 0;
+}
+
+#show-us {
+    padding: 1em;
 }
 
 /* Footer */
