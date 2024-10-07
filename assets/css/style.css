@@ -151,9 +151,17 @@ main hr {
     margin-bottom: 0.8em;
 }
 
-/* Icons */
+/* 'Show Us' Icons */
 #show-us i {
     color: #08daff;
+}
+
+/* 'Competition' Section */
+#competition {
+    border: 1px solid #1f1f1f;
+    background-color: #cfcfcf;
+    color: #1f1f1f;
+    padding: 1em;
 }
 
 /* Footer */
