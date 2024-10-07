@@ -121,16 +121,14 @@ main hr {
 }
 
 /* 'Show Us' Section */
-.container {
+#show-us {
+    padding: 1em;
     border: 1px solid #cfcfcf;
     background-color: #303030;
     margin: 2rem 0;
 }
 
-#show-us {
-    padding: 1em;
-}
-
+/* First div  of the 'Show Us' section*/
 #arts {
     margin-bottom: 1em;
 }
@@ -144,6 +142,7 @@ main hr {
     margin-bottom: 1em;
 }
 
+/* Later three divs of the 'Show Us' section */
 #melody, #dance, #skills {
     margin-bottom: 0.8em;
 }
