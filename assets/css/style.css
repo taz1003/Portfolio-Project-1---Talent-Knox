@@ -120,7 +120,7 @@ main hr {
     width: 100%;
 }
 
-/* 'Show Us' Section */
+/* |'Show Us' Section| */
 #show-us {
     padding: 1em;
     border: 1px solid #cfcfcf;
@@ -156,7 +156,7 @@ main hr {
     color: #08daff;
 }
 
-/* 'Competition' Section */
+/* |'Competition' Section| */
 #competition {
     border: 1px solid #303030;
     background-color: #cfcfcf;
@@ -164,6 +164,7 @@ main hr {
     padding: 1em;
 }
 
+/* |Locations part| */
 #locations {
     margin-bottom: 2em;
 }
@@ -182,7 +183,24 @@ main hr {
     font-weight: 450;
 }
 
-/* Footer */
+/* |Prizes part| */
+#prizes > h2 {
+    padding-bottom: 0.5em;
+}
+
+#prize-list {
+    padding-top: 0.5em;
+    font-size: 110%;
+    font-weight: 450;
+    text-align: start;
+}
+
+#prize-list > li {
+    padding-left: 1em;
+    list-style-type: none;
+}
+
+/* |Footer| */
 footer {
     background-color: #303030;
     margin-top: 2rem;
