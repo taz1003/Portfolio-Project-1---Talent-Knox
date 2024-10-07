@@ -85,6 +85,7 @@ nav {
     display: none;
 }
 
+/* Main */
 main {
     flex: 1 0 auto;
     margin-top: 110px;
@@ -98,6 +99,7 @@ main h1 {
     width: 100%;
 }
 
+/* Footer */
 footer {
     background-color: #303030;
     margin-top: 2rem;
@@ -114,6 +116,7 @@ footer {
     list-style-type: none;
 }
 
+/* Footer Icons */
 #socials i {
     font-size: 180%;
     color: #08daff;
