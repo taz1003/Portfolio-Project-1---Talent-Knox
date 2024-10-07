@@ -103,8 +103,6 @@ main h1 {
 }
 
 main hr {
-    width: 95%;
-    margin-bottom: 2px;
     border: 1px solid #545050;
 }
 
@@ -112,7 +110,7 @@ main hr {
 #cover-text h3 {
     font-weight: 400;
     text-align: left;
-    padding:0 5% 5%;
+    padding: 1em 5% 5%;
 }
 
 /* Hero Image */
@@ -133,7 +131,7 @@ main hr {
     margin-bottom: 1em;
 }
 
-#arts > h2 {
+#arts>h2 {
     font-weight: 500;
     margin-bottom: 0.7em;
 }
@@ -143,11 +141,15 @@ main hr {
 }
 
 /* Later three divs of the 'Show Us' section */
-#melody, #dance, #skills {
+#melody,
+#dance,
+#skills {
     margin-bottom: 0.8em;
 }
 
-#melody > h4, #dance > h4, #skills > h4 {
+#melody>h4,
+#dance>h4,
+#skills>h4 {
     margin-bottom: 0.8em;
 }
 
@@ -169,22 +171,26 @@ main hr {
     margin-bottom: 2em;
 }
 
-#locations > h2 {
+#locations h2 {
     padding-bottom: 0.5em;
 }
 
 /* 'Competition' section- 1st, 2nd & 3rd divs */
-#dublin, #galway, #limerick {
+#dublin,
+#galway,
+#limerick {
     padding: 0.5em 0;
 }
 
-#dublin > p, #galway > p, #limerick > p {
+#dublin>p,
+#galway>p,
+#limerick>p {
     font-size: 110%;
     font-weight: 450;
 }
 
 /* |Prizes part| */
-#prizes > h2 {
+#prizes h2 {
     padding-bottom: 0.5em;
 }
 
@@ -195,7 +201,7 @@ main hr {
     text-align: start;
 }
 
-#prize-list > li {
+#prize-list>li {
     list-style-type: none;
 }
 
@@ -212,7 +218,7 @@ footer {
     justify-content: space-evenly;
 }
 
-#socials > li {
+#socials>li {
     list-style-type: none;
 }
 
@@ -232,16 +238,8 @@ footer {
     }
 
     /* Competition section */
-    #locations {
-        padding-right: 0;
-    }
-
     #prizes {
         text-align: end;
-    }
-
-    #prizes hr {
-        width: 100%;
     }
 
     #prize-list {
@@ -294,6 +292,22 @@ footer {
     }
 
     /* Competition section */
+    #locations,
+    #prizes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #locations>div,
+    #prizes>div {
+        width: 75%;
+    }
+
+    #prizes>div {
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 /* Media query for laptops (992px and up) */
