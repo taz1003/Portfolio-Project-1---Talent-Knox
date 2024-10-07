@@ -94,6 +94,15 @@ main h1 {
     width: 100%;
 }
 
+/* Media query for larger screens(490px and up) */
+
+@media screen and (min-width: 490px) {
+    nav {
+       margin-left: 60%;
+       padding-right: 60%;
+    }
+}
+
 /* Media query for tablets and larger screens(768px and up) */
 
 @media screen and (min-width: 768px) {
@@ -129,7 +138,7 @@ main h1 {
     #menu>li {
         padding-left: 1em;
     }
-    
+
     .nav-toggle-label {
         display: none;
     }
