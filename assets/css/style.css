@@ -338,6 +338,7 @@ footer {
 /* Media query for larger screens like laptops (992px and up) */
 @media screen and (min-width: 992px) {
 
+    /* Header */
     #logo {
         font-size: 280%;
         padding-top: 12px;
@@ -347,17 +348,19 @@ footer {
         border-bottom: 1px dotted #08daff;
     }
 
+    /* Hero Section */
     #hero {
         font-size: 120%;
+    }
+
+    /* Main */
+    main {
+        margin-top: 160px;
     }
 
     #show-us, #competition {
         font-size: 120%;
         padding: 2rem 3rem;
-    }
-
-    main {
-        margin-top: 180px;
     }
 }
 
@@ -366,7 +369,13 @@ footer {
 
     #hero {
         height: 800px;
-        width: 100%;
-        position: relative;
+    }
+
+    #cover-text {
+        bottom: 170px;
+    }
+
+    main {
+        margin-top: 150px;
     }
 }
