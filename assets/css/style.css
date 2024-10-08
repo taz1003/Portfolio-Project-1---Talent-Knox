@@ -305,6 +305,16 @@ footer {
         position: relative;
     }
 
+    #cover-text {
+        background-color: rgba(48, 48, 48, 0.85);
+        color: aliceblue;
+        width: 70%;
+        padding-top: 1em;
+        padding-left: 1em;
+        position: absolute;
+        bottom: 100px;
+    }
+
     /* Competition section */
     #locations,
     #prizes {
