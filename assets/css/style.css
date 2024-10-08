@@ -378,4 +378,13 @@ footer {
     main {
         margin-top: 150px;
     }
+
+    /* Competition section */
+    #competition {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2.5em;
+        padding-left: 3.5em;
+        padding-right: 3.5em;
+    }
 }
