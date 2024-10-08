@@ -348,14 +348,9 @@ footer {
         border-bottom: 1px dotted #08daff;
     }
 
-    /* Hero Section */
-    #hero {
-        font-size: 120%;
-    }
-
     /* Main */
     main {
-        margin-top: 160px;
+        margin-top: 180px;
     }
 
     #show-us, #competition {
