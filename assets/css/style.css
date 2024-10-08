@@ -251,7 +251,7 @@ footer {
 
     #cover-text {
         background-color: rgba(48, 48, 48, 0.80);
-        color: aliceblue;
+        color: rgb(235, 233, 239);
         width: 70%;
         padding-top: 1em;
         padding-left: 1em;
@@ -313,6 +313,7 @@ footer {
     /* Main */
     main {
         margin-top: 165px;
+        font-size: 120%;
     }
 
     /* Competition section */
@@ -346,10 +347,18 @@ footer {
         border-bottom: 1px dotted #08daff;
     }
 
+    #hero {
+        font-size: 120%;
+    }
+
+    #show-us, #competition {
+        font-size: 120%;
+        padding: 2rem 3rem;
+    }
+
     main {
         margin-top: 180px;
     }
-
 }
 
 /* Media query for larger screens than laptops (1200px and up) */
