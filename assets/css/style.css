@@ -350,10 +350,14 @@ footer {
         margin-top: 180px;
     }
 
-    /* competition
-    #competition {
-        display:flex;
-        flex-direction: row;
-    } */
+}
 
+/* Media query for larger screens than laptops (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    #hero {
+        height: 800px;
+        width: 100%;
+        position: relative;
+    }
 }
