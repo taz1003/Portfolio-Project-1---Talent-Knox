@@ -214,6 +214,23 @@ main hr {
     margin-bottom: 10px;
 }
 
+#about-us h3, #about-us p {
+    padding: 0.5rem;
+}
+
+#thoughts {
+    margin: 2rem 0;
+}
+
+#photos {
+    padding-top: 1.5rem;
+    line-height: 2em;
+}
+
+#photos img {
+    width: 100%;
+}
+
 /* |Footer| */
 footer {
     background-color: #303030;
