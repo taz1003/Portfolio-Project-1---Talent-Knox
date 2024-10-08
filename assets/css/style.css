@@ -93,7 +93,7 @@ main {
 }
 
 /* Heading */
-main h1{
+main h1 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 220%;
@@ -214,7 +214,8 @@ main hr {
     margin-bottom: 10px;
 }
 
-#about-us h3, #about-us p {
+#about-us h3,
+#about-us p {
     padding: 0.5rem;
 }
 
@@ -224,7 +225,7 @@ main hr {
 
 #photos {
     padding-top: 1.5rem;
-    line-height: 2em;
+    line-height: 3em;
 }
 
 #photos img {
@@ -292,6 +293,11 @@ footer {
 
     #prize-list {
         text-align: end;
+    }
+
+    /* About Us */
+    #photos {
+        column-count: 2;
     }
 }
 
@@ -379,10 +385,17 @@ footer {
         margin-top: 180px;
     }
 
-    #show-us, #competition {
+    #show-us,
+    #competition {
         font-size: 120%;
         padding: 2rem 3rem;
     }
+
+    /* About Us */
+    #photos {
+        column-count: 3;
+    }
+
 }
 
 /* Media query for larger screens than laptops (1200px and up) */
