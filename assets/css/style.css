@@ -93,7 +93,7 @@ main {
 }
 
 /* Heading */
-main h1 {
+main h1{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 220%;
@@ -203,6 +203,15 @@ main hr {
 
 #prize-list>li {
     list-style-type: none;
+}
+
+/* ||About Us|| */
+
+#about-us h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    font-weight: 550;
+    margin-bottom: 10px;
 }
 
 /* |Footer| */
