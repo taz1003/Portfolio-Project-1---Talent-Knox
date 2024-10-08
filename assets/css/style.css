@@ -250,6 +250,7 @@ footer {
 /* Media query for tablets and larger screens(768px and up) */
 @media screen and (min-width: 768px) {
 
+    /* Header */
     header {
         font-size: 100%;
         display: flex;
@@ -287,8 +288,21 @@ footer {
         display: none;
     }
 
+    /* Main */
     main {
         margin-top: 165px;
+    }
+
+    /* Changing how #hero section looks */
+    #hero-img {
+        display: none;
+    }
+
+    #hero {
+        background: url(../images/StockCake-Singer-in-Concert_1728034392.jpg) no-repeat center / cover;
+        height: 500px;
+        width: 100%;
+        position: relative;
     }
 
     /* Competition section */
@@ -310,7 +324,7 @@ footer {
     }
 }
 
-/* Media query for laptops (992px and up) */
+/* Media query for larger screens like laptops (992px and up) */
 @media screen and (min-width: 992px) {
 
     #logo {
@@ -325,5 +339,11 @@ footer {
     main {
         margin-top: 180px;
     }
+
+    /* competition
+    #competition {
+        display:flex;
+        flex-direction: row;
+    } */
 
 }
