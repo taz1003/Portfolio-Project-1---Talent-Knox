@@ -237,6 +237,28 @@ footer {
         padding-right: 60%;
     }
 
+    /* Changing how #hero section looks */
+    #hero-img {
+        display: none;
+    }
+
+    #hero {
+        background: url(../images/StockCake-Singer-in-Concert_1728034392.jpg) no-repeat center / cover;
+        height: 500px;
+        width: 100%;
+        position: relative;
+    }
+
+    #cover-text {
+        background-color: rgba(48, 48, 48, 0.80);
+        color: aliceblue;
+        width: 70%;
+        padding-top: 1em;
+        padding-left: 1em;
+        position: absolute;
+        bottom: 100px;
+    }
+
     /* Competition section */
     #prizes {
         text-align: end;
@@ -291,28 +313,6 @@ footer {
     /* Main */
     main {
         margin-top: 165px;
-    }
-
-    /* Changing how #hero section looks */
-    #hero-img {
-        display: none;
-    }
-
-    #hero {
-        background: url(../images/StockCake-Singer-in-Concert_1728034392.jpg) no-repeat center / cover;
-        height: 500px;
-        width: 100%;
-        position: relative;
-    }
-
-    #cover-text {
-        background-color: rgba(48, 48, 48, 0.85);
-        color: aliceblue;
-        width: 70%;
-        padding-top: 1em;
-        padding-left: 1em;
-        position: absolute;
-        bottom: 100px;
     }
 
     /* Competition section */
