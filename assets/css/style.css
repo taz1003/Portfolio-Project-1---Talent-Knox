@@ -254,6 +254,19 @@ main hr {
     padding: 0 5px;
 }
 
+.join-button, .reset-button {
+    font-family: 'Barlow', sans-serif;
+    font-size: 90%;
+    padding: 0.5em;
+    font-weight: 500;
+    border: 1px solid #1f1f1f;
+    border-radius: 10%;
+}
+
+.join-button {
+    background-color: #08daff;
+}
+
 /* |Footer| */
 footer {
     background-color: #303030;
