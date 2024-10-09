@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body  id="signup-page">
 
     <!-- Header -->
 
@@ -93,11 +93,11 @@
                         <input type="radio" id="dancer" name="select_talent" value="dancer" required>
                     </div>
                     <div>
-                        <label for="other">Other Skills</label>
+                        <label for="other">Other Skills <i class="fa-solid fa-arrow-turn-down"></i></label>
                         <input type="radio" id="other" name="select_talent" value="other-skills" required>
                         <br>
                         <label for="other-skills">What's Your Skill?</label>
-                        <input type="text" id="other-skills" name="other_skill">
+                        <input type="text" id="other-skills" class="info-input" name="other_skill" placeholder="Your SKill">
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@
                 <div id="tell-us">
                     <label for="yourself">Tell Us About Yourself (Optional)</label>
                     <br>
-                    <textarea name="yourself" id="yourself" rows="5" cols="35"></textarea>
+                    <textarea name="yourself" id="yourself" class="info-input" rows="5" cols="20"></textarea>
                 </div>
 
                 <!-- Submit -->
