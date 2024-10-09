@@ -482,6 +482,11 @@ footer {
     .reset-button:hover {
         background-color: #e05c19;
     }
+
+    /* footer */
+    #socials i:hover {
+        color: #e05c19;
+    }
 }
 
 /* Media query for larger screens than laptops (1200px and up) */
