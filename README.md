@@ -23,16 +23,15 @@ A fully responsive and modern style three-page website that has good accessilbil
 - __Competition Information section__
   - This section will provide the users information about the competition locations, dates, times, and prizes for first, second, third place, and participation.
 
--__Footer__
+- __Footer__
 
--__About US page__ 
+- __About US page__ 
   - The second page contains a short biography of the coordinators of the Talent Knox competition. It also includes a "Contact Us" section that provides the user with the address, phone number, and email address. 
   - Additionally, there is a snippet about the thoughts the coordinators have regarding this competition.
 
--__Gallery section__
+- __Gallery section__
   - The gallery will provide the user with supporting images to visualize the competition.
   - This section is important for users as it helps them easily identify the types of events organized by the coordinators.
 
--__Sign Up Page__
+- __Sign Up Page__
   - This page will assist interested users in signing up for the competition. They can choose their age from an age-range selector, indicate the location, and specify the talent they will be showcasing. An optional 'write about yourself' description box is included provided they are interested.
-  
