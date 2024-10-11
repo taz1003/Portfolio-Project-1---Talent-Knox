@@ -11,7 +11,7 @@ A fully responsive and modern style three-page website that has good accessilbil
 
 - __Navigation Bar (Header)__
   - A navigation bar that is fully responsive is uniformly featured on all three pages. It has links to the Home page, About Us page and Sign Up page through the logo, 'Home', 'About Us' and 'Sign Up' links.
-  - This navigation section will help users to move between pages on any device, from mobiles to high resolution screens, without the hassle of the clicking through the back button.
+  - This navigation section will help users to move between pages on any device, from mobiles to high resolution screens, without the hassle of clicking through the back button.
 
 - __The landing page__
   - For mobile users, a friendly introduction with comprehensive information about what users can expect is provided, along with a captivating image designed to grab their attention.
