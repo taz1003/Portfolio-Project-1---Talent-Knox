@@ -479,6 +479,10 @@ footer {
         margin-top: 180px;
     }
 
+    #landing-page {
+        margin-top: 90px;
+    }
+
     #hero{
     background: url(../images/Singer_in_Concert.jpg) no-repeat center 30% / cover;
     }
@@ -547,11 +551,12 @@ footer {
     }
 
     #hero {
-        height: 700px;
+        height: 750px;
     }
 
     #cover-text {
         font-size: 120%;
+        bottom: 10%;
     }
 
     main {
