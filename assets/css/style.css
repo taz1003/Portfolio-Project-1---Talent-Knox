@@ -208,6 +208,9 @@ main hr {
 }
 
 /** About Us **/
+#about-us {
+    padding: 0 0.3em;
+}
 
 #about-us h2 {
     font-family: 'Raleway', sans-serif;
@@ -228,7 +231,11 @@ main hr {
 }
 
 #thoughts {
-    margin: 2rem 0;
+    margin: 1rem 0;
+}
+
+#contact {
+    margin-bottom: 1.5rem;
 }
 
 #photos {
@@ -547,6 +554,11 @@ footer {
         padding-top: 2.5em;
         padding-left: 3.5em;
         padding-right: 3.5em;
+    }
+
+    /* About Us */
+    #about-us {
+        font-size: 140%;
     }
 
     /* Sign Up */
