@@ -475,6 +475,10 @@ footer {
         margin-top: 180px;
     }
 
+    #hero{
+    background: url(../images/Singer_in_Concert.jpg) no-repeat center 40% / cover;
+    }
+
     #show-us,
     #competition {
         font-size: 120%;
@@ -559,6 +563,7 @@ footer {
     /* About Us */
     #about-us {
         font-size: 140%;
+        margin-top: 2rem;
     }
 
     /* Sign Up */
