@@ -349,13 +349,13 @@ footer {
     }
 
     #cover-text {
-        background-color: rgba(48, 48, 48, 0.80);
+        background-color: rgba(48, 48, 48, 0.70);
         color: rgb(235, 233, 239);
-        width: 70%;
+        width: 80%;
         padding-top: 1em;
-        padding-left: 1em;
+        padding-left: 0.5em;
         position: absolute;
-        bottom: 100px;
+        bottom: 10%;
     }
 
     /* Competition section */
@@ -429,6 +429,10 @@ footer {
         font-size: 120%;
     }
 
+    #cover-text {
+        bottom: 5%;
+    }
+
     /* Competition section */
     #locations,
     #prizes {
@@ -476,7 +480,7 @@ footer {
     }
 
     #hero{
-    background: url(../images/Singer_in_Concert.jpg) no-repeat center 40% / cover;
+    background: url(../images/Singer_in_Concert.jpg) no-repeat center 30% / cover;
     }
 
     #show-us,
@@ -538,13 +542,16 @@ footer {
 
 /* Media query for larger screens than laptops (1200px and up) */
 @media screen and (min-width: 1200px) {
+    #landing-page {
+        font-size: 130%;
+    }
 
     #hero {
-        height: 800px;
+        height: 700px;
     }
 
     #cover-text {
-        bottom: 170px;
+        font-size: 120%;
     }
 
     main {
