@@ -583,6 +583,14 @@ footer {
     }
 
     /* footer */
+    footer {
+        padding: 2em 1em;
+    }
+
+    #socials i {
+        margin: 0 20px;
+    }
+
     #socials i:hover {
         color: #e05c19;
     }
@@ -628,7 +636,12 @@ footer {
         font-size: 120%;
     }
 
-    /* Footer */
+    Footer
+    footer {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
     #footer-contact {
         font-size: 140%;
     }
@@ -642,11 +655,11 @@ footer {
 /* Media query for larger screens than laptops (1800px and up) */
 @media screen and (min-width: 1800px) {
     body {
-        font-size: 160%;
+        font-size: 120%;
     }
 
     #hero {
-        height: 1200px;
+        height: 1100px;
     }
 
     /* About Us */
