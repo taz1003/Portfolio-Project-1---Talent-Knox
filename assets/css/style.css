@@ -227,7 +227,7 @@ main hr {
 #team-photo {
     width: 100%;
     padding: 0.5rem;
-    
+
 }
 
 #thoughts {
@@ -484,8 +484,8 @@ footer {
         margin-top: 90px;
     }
 
-    #hero{
-    background: url(../images/Singer_in_Concert.jpg) no-repeat center 30% / cover;
+    #hero {
+        background: url(../images/Singer_in_Concert.jpg) no-repeat center 30% / cover;
     }
 
     #show-us,
@@ -504,7 +504,7 @@ footer {
     }
 
     #intro-section {
-        display:flex;
+        display: flex;
         flex-direction: row;
     }
 
@@ -520,6 +520,10 @@ footer {
         order: 1;
         margin-top: 2.5rem;
         padding-bottom: 1rem;
+    }
+
+    #contact {
+        margin-bottom: 3rem;
     }
 
     /* Sign Up */
@@ -596,6 +600,19 @@ footer {
         height: 1200px;
     }
 
+    /* About Us */
+    #about-us {
+        margin-top: 5rem;
+    }
+
+    #intro-section {
+        margin-bottom: 4rem;
+    }
+
+    #contact {
+        margin-bottom: 5rem;
+    }
+
     /* sign up page */
     #signup {
         margin: 5rem 30rem;
@@ -613,5 +630,22 @@ footer {
 
 /* Media query for larger screens than laptops (2500px and up) */
 @media screen and (min-width: 2500px) {
+    body {
+        font-size: 170%;
+    }
 
+    #hero {
+        height: 1500px;
+    }
+
+    /* About Us */
+    #about-us {
+        margin-top: 7rem;
+        font-size: 155%;
+    }
+
+    /* Sign Up */
+    #signup {
+        margin-top: 10rem;
+    }
 }
