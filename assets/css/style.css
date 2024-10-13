@@ -627,6 +627,16 @@ footer {
         margin: 2rem 15rem;
         font-size: 120%;
     }
+
+    /* Footer */
+    #footer-contact {
+        font-size: 140%;
+    }
+
+    #socials {
+        font-size: 130%;
+        flex-basis: 15%;
+    }
 }
 
 /* Media query for larger screens than laptops (1800px and up) */
@@ -686,5 +696,10 @@ footer {
     /* Sign Up */
     #signup {
         margin-top: 10rem;
+    }
+
+    #socials {
+        font-size: 140%;
+        flex-basis: 10%;
     }
 }
