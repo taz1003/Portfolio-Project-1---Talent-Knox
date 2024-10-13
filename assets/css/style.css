@@ -317,7 +317,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}   
+}
 
 #footer-contact {
     font-size: 70%;
@@ -326,7 +326,7 @@ footer {
 #socials {
     padding-top: 1.5em;
     display: flex;
-    justify-content: center;
+    flex-basis: 20%;
 }
 
 /* Footer Icons */
@@ -389,6 +389,21 @@ footer {
     /* Sign Up */
     #signup {
         margin: 2rem;
+    }
+
+    /* Footer */
+    #footer-contact {
+        font-size: 90%;
+        margin-left: 0.6em;
+    }
+
+    #socials {
+        padding-top: 2em;
+    }
+
+    #socials i {
+        font-size: 180%;
+        margin: 0 10px;
     }
 }
 
@@ -468,6 +483,21 @@ footer {
 
     .info-input {
         height: 35px;
+    }
+
+    /* Footer */
+    #footer-contact {
+        font-size: 110%;
+        margin-left: 0.6em;
+    }
+
+    #socials {
+        padding-top: 2.5em;
+    }
+
+    #socials i {
+        font-size: 180%;
+        margin: 0 10px;
     }
 }
 
