@@ -324,7 +324,7 @@ footer {
 }
 
 #socials {
-    padding-top: 1.5em;
+    padding-top: 2.5em;
     display: flex;
     flex-basis: 20%;
 }
@@ -398,7 +398,7 @@ footer {
     }
 
     #socials {
-        padding-top: 2em;
+        padding-top: 3em;
     }
 
     #socials i {
@@ -492,7 +492,7 @@ footer {
     }
 
     #socials {
-        padding-top: 2.5em;
+        padding-top: 3.5em;
     }
 
     #socials i {
