@@ -72,14 +72,21 @@
                 </div>
 
                 <!-- Desired Loation -->
-                <div id="location-selector">
-                    <label for="select-location">Select Location</label>
-                    <select name="location" id="select-location" class="info-input">
-                        <option value="" disabled selected>Preferred Location</option>
-                        <option value="Dublin">Dublin</option>
-                        <option value="Galway">Galway</option>
-                        <option value="Limerick">Limerick</option>
-                    </select>
+                <div class="location-selector">
+                    <div>
+                        <h4>Select Preferred Location</h4>
+
+                        <label for="form-dublin">Dublin</label>
+                        <input type="radio" id="form-dublin" name="select_location" value="Dublin" required checked>
+                    </div>
+                    <div>
+                        <label for="form-galway">Galway</label>
+                        <input type="radio" id="form-galway" name="select_location" value="Galway" required>
+                    </div>
+                    <div>
+                        <label for="form-limerick">Limerick</label>
+                        <input type="radio" id="form-limerick" name="select_location" value="Limerick" required>
+                    </div>
                 </div>
 
                 <!-- Talent -->
@@ -95,12 +102,12 @@
                         <input type="radio" id="dancer" name="select_talent" value="dancer" required>
                     </div>
                     <div>
-                        <label for="other">Other Skills <i class="fa-solid fa-arrow-turn-down"></i></label>
+                        <label for="other"></label>
                         <input type="radio" id="other" name="select_talent" value="other-skills" required>
-                        <br>
+                        <!-- <br>
                         <label for="other-skills">What's Your Skill?</label>
                         <input type="text" id="other-skills" class="info-input" name="other_skill"
-                            placeholder="e.g. Comedian">
+                            placeholder="e.g. Comedian"> -->
                     </div>
                 </div>
 
