@@ -6,12 +6,16 @@ Talent Knox is an open talent show competition designed to showcase a variety of
 
 Participants can showcase their talents in different categories, including singing, dancing, and other unique skills such as magic, acrobatics, or juggling. The focus is on captivating the crowd with standout performances, whether through mesmerizing dance routines, powerful vocal performances, or one-of-a-kind acts. The call-to-action encourages performers to step up, take the spotlight, and make a lasting impression.
 
+![Responsive Mockup](assets/screenshots/talent_knox_mockup.png)
+
 ## Features
 A fully responsive and modern style three-page website that has good accessilbilty to the users. Some features are as follows:
 
 - __Navigation Bar (Header)__
-  - A navigation bar that is fully responsive is uniformly featured on all three pages. It has links to the Home page, About Us page and Sign Up page through the logo, 'Home', 'About Us' and 'Sign Up' links.
+  - A navigation bar that is fully responsive is uniformly featured on all three pages. It has links to the Home page, About Us page and Sign Up page through the logo, 'Home', 'About Us' and 'Sign Up' links respectively.
   - This navigation section will help users to move between pages on any device, from mobiles to high resolution screens, without the hassle of clicking through the back button.
+
+  ![Navigation Bar](assets/screenshots/talent_knox_nav.png)
 
 - __The landing page__
   - For mobile users, a friendly introduction with comprehensive information about what users can expect is provided, along with a captivating image designed to grab their attention.
