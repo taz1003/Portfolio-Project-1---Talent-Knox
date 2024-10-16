@@ -658,6 +658,10 @@ footer {
         font-size: 120%;
     }
 
+    #cover-text {
+        bottom: 15%;
+    }
+
     #hero {
         height: 1100px;
     }
