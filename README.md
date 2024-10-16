@@ -2,6 +2,8 @@ Fixed the error with the help of W3 Html reference page. https://www.w3schools.c
 
 # Talent Knox
 
+[view the full project here](https://taz1003.github.io/Portfolio-Project-1---Talent-Knox/)
+
 Talent Knox is an open talent show competition designed to showcase a variety of skills. Singers, dancers, comedians, and individuals with unique abilities are all invited to take the stage and compete for incredible prizes. The competition is open to people of all ages and talents, providing a platform for them to perform and impress an audience.
 
 Participants can showcase their talents in different categories, including singing, dancing, and other unique skills such as magic, acrobatics, or juggling. The focus is on captivating the crowd with standout performances, whether through mesmerizing dance routines, powerful vocal performances, or one-of-a-kind acts. The call-to-action encourages performers to step up, take the spotlight, and make a lasting impression.
@@ -61,4 +63,18 @@ A fully responsive and modern style three-page website that has good accessilbil
   ![Age Selector](assets/screenshots/talent_knox_age_selector.png)
   ![Talent Selector](assets/screenshots/talent_knox_talent_selector.png)
 
-##
+## Features Left to Implement
+  - More interactive functions like image enhancement in the gallery.
+  - More pages explaining implementation various talents for the competition.
+
+
+## Technologies Used
+- __Languages Used__
+  - HTML5
+  - CSS3
+
+- __Programs, Libraries Used__
+  1. __Chrome DevTools__
+    - The built in DevTools program in the Chrome internet browser was used all throughout the project to assist with responsiveness and styling of the website.
+  2. __Google Fonts__
+    - 
