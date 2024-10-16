@@ -72,7 +72,7 @@
                 </div>
 
                 <!-- Desired Loation -->
-                <div class="location-selector">
+                <div>
                     <div>
                         <h4>Select Preferred Location</h4>
 
@@ -88,27 +88,25 @@
                         <input type="radio" id="form-limerick" name="select_location" value="Limerick" required>
                     </div>
                 </div>
+                <br>
 
                 <!-- Talent -->
-                <div class="radio-buttons">
-                    <div>
-                        <h4>Select Your Talent</h4>
+                <div>
 
-                        <label for="singer">Singer</label>
-                        <input type="radio" id="singer" name="select_talent" value="singer" required checked>
-                    </div>
-                    <div>
-                        <label for="dancer">Dancer</label>
-                        <input type="radio" id="dancer" name="select_talent" value="dancer" required>
-                    </div>
-                    <div>
-                        <label for="other"></label>
-                        <input type="radio" id="other" name="select_talent" value="other-skills" required>
-                        <!-- <br>
-                        <label for="other-skills">What's Your Skill?</label>
-                        <input type="text" id="other-skills" class="info-input" name="other_skill"
-                            placeholder="e.g. Comedian"> -->
-                    </div>
+                        <label for="select_talent">What's Your Talent?</label>
+                        <select id="select_talent" name="select_talent" class="info-input" required size="1">
+                            <option value="" disabled selected>Select Talent</option>
+                            <option value="singing">Singing</option>
+                            <option value="dancing">Dancing</option>
+                            <option value="comedy">Comedy</option>
+                            <option value="magic">Magic</option>
+                            <option value="music-instruments">Musical Instruments</option>
+                            <option value="circus">Circus Acts</option>
+                            <option value="acting">Acting</option>
+                            <option value="poetry">Poetry</option>
+                            <option value="painting">Speed Painting</option>
+                            <option value="street_acts">Street Acts</option>
+                        </select>
                 </div>
 
                 <!-- "Yourself" -->
