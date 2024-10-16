@@ -21,21 +21,44 @@ A fully responsive and modern style three-page website that has good accessilbil
   - For mobile users, a friendly introduction with comprehensive information about what users can expect is provided, along with a captivating image designed to grab their attention.
   - For users with larger screen sizes, the introduction and image are creatively merged.
 
-- __The 'Show us what you can do' section__
+  ![Landing Page](assets/screenshots/talent_knox_landing_page.png) ![Landing Page for mobiles](assets/screenshots/talent_knox_landing_page_mobile.png)
+
+- __The 'Show us what you can do' (Overview) section__
   - This section will allow users to view a brief overview of the options available for showcasing their talent in the competition.
+
+  ![Overview](assets/screenshots/talent_knox_overview.png)
 
 - __Competition Information section__
   - This section will provide the users information about the competition locations, dates, times, and prizes for first, second, third place, and participation.
 
-- __Footer__
+  ![Competition Details](assets/screenshots/talent_knox_competition_details.png)
 
-- __About US page__ 
-  - The second page contains a short biography of the coordinators of the Talent Knox competition. It also includes a "Contact Us" section that provides the user with the address, phone number, and email address. 
-  - Additionally, there is a snippet about the thoughts the coordinators have regarding this competition.
+- __Footer__
+  - Properly aligned and fully responsive 'Contact Us' and 'Social media link icons' sections are presented to the users in the footer that matches the color contrast of the website.
+  - The social media icons change appearances if cursors are hovered on them.
+
+  ![Footer](assets/screenshots/talent_knox_footer.png)
+
+### About US (second page)
+  - The second page contains a short biography of the coordinators of the Talent Knox competition.
+
+  ![We We Are](assets/screenshots/talent_knox_about_us.png)
+
+  - Additionally, there is a snippet about the thoughts the coordinators have regarding this competition. It also includes a "Contact Us" section that provides the user with address, phone number, and email address. 
+
+  ![Thoughts & Contact Us](assets/screenshots/talent_knox_thoughts_contact_us.png)
 
 - __Gallery section__
   - The gallery will provide the user with supporting images to visualize the competition.
   - This section is important for users as it helps them easily identify the types of events organized by the coordinators.
 
-- __Sign Up Page__
-  - This page will assist interested users in signing up for the competition. They can choose their age from an age-range selector, indicate the location, and specify the talent they will be showcasing. An optional 'write about yourself' description box is included provided they are interested.
+  ![Gallery](assets/screenshots/talent_knox_gallery.png)
+
+### Sign Up (third page)
+  - This page will assist interested users in signing up for the competition. They can choose their age from an age-range selector, indicate the location, and select the talent they will be showcasing. An optional 'write about yourself' description box is included provided they are interested. The fully functional submit and reset button, change appearances when hovered upon.
+
+  ![SignUp Form](assets/screenshots/talent_knox_sign_up_form.png)
+  ![Age Selector](assets/screenshots/talent_knox_age_selector.png)
+  ![Talent Selector](assets/screenshots/talent_knox_talent_selector.png)
+
+##
