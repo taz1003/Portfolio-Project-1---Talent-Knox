@@ -14,7 +14,7 @@ Participants can showcase their talents in different categories, including singi
 
 
 ## Features
-Keeping in mind good User Experience Design (UXD), we have created a fully responsive and modern three-page website with excellent accessibility for users. Some of the key features include:
+Keeping in mind good User Experience Design (UXD), I have created a fully responsive and modern three-page website with excellent accessibility for users. Some of the key features include:
 
 
 - __Navigation Bar (Header)__
