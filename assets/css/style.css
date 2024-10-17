@@ -348,7 +348,7 @@ footer {
     }
 
     #hero {
-        background: url(../images/Singer_in_Concert.jpg) no-repeat center / cover;
+        background: url(../images/singer_in_concert.jpg) no-repeat center / cover;
         height: 500px;
         width: 100%;
         position: relative;
@@ -520,7 +520,7 @@ footer {
     }
 
     #hero {
-        background: url(../images/Singer_in_Concert.jpg) no-repeat center 30% / cover;
+        background: url(../images/singer_in_concert.jpg) no-repeat center 30% / cover;
     }
 
     #show-us,
