@@ -85,7 +85,11 @@ A fully responsive and modern style three-page website that has good accessilbil
 
 
 ## Testing
-  - Fixed error that was occuring in lines 94-109 in the signup.html page because there was no 'disabled' Option value as a placeholder for the Select attribute. Fix was done with the help of W3 HTML reference page. https://www.w3schools.com/tags/tag_option.asp
+
+  - __W3C Markup Validator__ - Results
   
   - Fixed error with the help of W3C Markup Validation Service that occured in lines 121-127 in the index.html page. Fix was done by removing 'br' attributes from the 'ul' attribute. 
   
+  - Fixed error that was occuring in lines 94-109 in the signup.html page because there was no 'disabled' Option value as a placeholder for the Select attribute. Fix was done with the help of [W3 HTML reference page](https://www.w3schools.com/tags/tag_option.asp).
+
+  - Fixed spelling error of the image in line 61 
