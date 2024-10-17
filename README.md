@@ -70,26 +70,33 @@ A fully responsive and modern style three-page website that has good accessilbil
 - __Languages Used__
   - HTML5
   - CSS3
+    - Media queries were used to enable the responsiveness of the website for various screen sizes (490px+, 768px+, 992px+, 1200px+, 1800px+ and 2500px+)
 
 - __Programmes, Libraries Used__
   1. __Chrome DevTools__
     - The built in DevTools programme in the Chrome internet browser was used all throughout the project to assist with responsiveness and styling of the website.
-  2. __Google Fonts__
+  2. __[Google Fonts](https://fonts.google.com/?preview.text=Welcome%20To%20Talent%20Knox!)__
     - Google Fonts were used to import 'Barlow' and 'Raleway' fonts into the style.css which were used all throughout the project.
-  3. __Font Awesome__
+  3. __[Font Awesome](https://fontawesome.com/)__
     - Font Awesome kit was used on all pages to add icons for aesthetic and UX purposes. The favicon was also created using this programme.
-  4. __Gitpod__
+  4. __[Gitpod](https://www.gitpod.io/)__
     - All the coding were done using Gitpod, also the terminal was used to commit to git and push to Github.
-  5. __GitHub__
+  5. __[GitHub](https://github.com/)__
     - Github was used to store all the coding after being pushed from Gitpod.
+  6. __[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) & [W3 Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)__
+    - W3C Markup Validator and W3 Jigsaw CSS Validator were used as testing and validating the HTML and CSS coding of all the pages and their styles.
+  7. __[Screenfly](https://screenfly.org/)__
+    - Screenfly was used to test the responsiveness of the website for various screen sizes. 
 
 
 ## Testing
 
   - __W3C Markup Validator__ - Results
-  
-  - Fixed error with the help of W3C Markup Validation Service that occured in lines 121-127 in the index.html page. Fix was done by removing 'br' attributes from the 'ul' attribute. 
-  
-  - Fixed error that was occuring in lines 94-109 in the signup.html page because there was no 'disabled' Option value as a placeholder for the Select attribute. Fix was done with the help of [W3 HTML reference page](https://www.w3schools.com/tags/tag_option.asp).
 
-  - Fixed spelling error of the image in line 61 
+
+ - __Bugs Fixed__
+    - Fixed error with the help of [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) that occured in lines 121-127 in the index.html. Fix was done by removing 'br' attributes from the 'ul' attribute. 
+  
+    - Fixed error that was occuring in lines 94-109 in the signup.html page because there was no 'disabled' Option value as a placeholder for the Select attribute. Fix was done with the help of [W3 HTML reference page](https://www.w3schools.com/tags/tag_option.asp).
+
+    - Fixed spelling error of the image path in line 61 in the about.html page that occured during the usage of [W3C Markup Validator](https://validator.w3.org/#validate_by_input).
