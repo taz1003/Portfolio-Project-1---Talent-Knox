@@ -1,5 +1,3 @@
-Fixed the error with the help of W3 Html reference page. https://www.w3schools.com/tags/tag_option.asp
-
 # Talent Knox
 
 [view the full project here](https://taz1003.github.io/Portfolio-Project-1---Talent-Knox/)
@@ -73,8 +71,21 @@ A fully responsive and modern style three-page website that has good accessilbil
   - HTML5
   - CSS3
 
-- __Programs, Libraries Used__
+- __Programmes, Libraries Used__
   1. __Chrome DevTools__
-    - The built in DevTools program in the Chrome internet browser was used all throughout the project to assist with responsiveness and styling of the website.
+    - The built in DevTools programme in the Chrome internet browser was used all throughout the project to assist with responsiveness and styling of the website.
   2. __Google Fonts__
-    - 
+    - Google Fonts were used to import 'Barlow' and 'Raleway' fonts into the style.css which were used all throughout the project.
+  3. __Font Awesome__
+    - Font Awesome kit was used on all pages to add icons for aesthetic and UX purposes. The favicon was also created using this programme.
+  4. __Gitpod__
+    - All the coding were done using Gitpod, also the terminal was used to commit to git and push to Github.
+  5. __GitHub__
+    - Github was used to store all the coding after being pushed from Gitpod.
+
+
+## Testing
+  - Fixed error that was occuring in lines 94-109 in the signup.html page because there was no 'disabled' Option value as a placeholder for the Select attribute. Fix was done with the help of W3 HTML reference page. https://www.w3schools.com/tags/tag_option.asp
+  
+  - Fixed error with the help of W3C Markup Validation Service that occured in lines 121-127 in the index.html page. Fix was done by removing 'br' attributes from the 'ul' attribute. 
+  
