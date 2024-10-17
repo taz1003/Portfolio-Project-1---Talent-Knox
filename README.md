@@ -119,7 +119,7 @@ A fully responsive and modern style three-page website that has good accessibili
   
 
 ## Testing
-  - I tested that this website works perfectly in different browsers: Chrome, Firefox, Opera GX, Edge
+  - I tested that this website works perfectly in different browsers: Chrome, Firefox, Opera GX, Edge, etc.
   - I confirmed that this website is responsive, looks aesthetically pleasing and functions properly on all standard screen sizes using the Chrome DevTools and Screenfly, as well as using different mobile phones.
   - I confirmed that the links and styles presented in the nav bar and the footer works perfectly as intended in all screens and browsers.
   - I have confirmed that the sign up form works flawlessly including the age and talent selectors, submit and the reset buttons.
@@ -133,8 +133,21 @@ A fully responsive and modern style three-page website that has good accessibili
 
   - __Validator Testing__
     - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
-      - I 
+      - After running the code in index.html through the W3C Markup Validator for the final time, no errors were found. However, there was one warning about the placement of 'h1' in line 49, which does not affect the website's functionality or interfere with any other code. Everything else is working perfectly.
+      - No errors or issues were returned when running the code present in about.html and signup.html pages through the W3C Markup Validator.
+    - [W3 Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
+      - No errors or issues were returned after running the code present in style.css file through the W3 Jigsaw CSS Validator.
     - Accessibility
       - I confirmed that the colors, images and fonts used in this website are easy to read and accessible by running it through lighthouse in Chrome DevTools.
 
         ![Lighthouse Test Results](assets/screenshots/talent_knox_testing_lighthouse.png)
+
+## Deployment
+  - The website was deployed to Github. The steps to deploy are as follows:
+    - Login to [Github](https://www.gitpod.io/) and locate the targeted repository from the repositories menu.
+    - Navigate to the settings tab and locate 'Default Branch' section.
+    - Change the source from 'none' to 'main'
+    - Refresh the page (if not automatically refreshed) and navigate back to the Code tab.
+    - At the right side, in the Deployments section, click on github-pages and the published link will be presented there.
+  
+  view the live website link here - [Talent Knox](https://taz1003.github.io/Portfolio-Project-1---Talent-Knox/)
