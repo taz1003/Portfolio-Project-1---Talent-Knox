@@ -14,7 +14,7 @@ Participants can showcase their talents in different categories, including singi
 
 
 ## Features
-A fully responsive and modern style three-page website that has good accessibility to the users. Some features are as follows:
+Keeping in mind good User Experience Design (UXD), we have created a fully responsive and modern three-page website with excellent accessibility for users. Some of the key features include:
 
 
 - __Navigation Bar (Header)__
@@ -26,7 +26,7 @@ A fully responsive and modern style three-page website that has good accessibili
 
 
 - __The landing page__
-  - For mobile users, a friendly introduction with comprehensive information about what users can expect is provided, along with a captivating image designed to grab their attention.
+  - For mobile users, a friendly introduction with brief information about what users can expect is provided, with a captivating image right below that is designed to grab their attention.
   - For users with larger screen sizes, the introduction and image are creatively merged.
 
 
@@ -62,7 +62,7 @@ A fully responsive and modern style three-page website that has good accessibili
   ![We We Are](assets/screenshots/talent_knox_about_us.png)
 
 
-  - Additionally, there is a snippet about the thoughts the coordinators have regarding this competition. It also includes a "Contact Us" section that provides the user with an address, phone number, and email address.
+  - Additionally, there is a snippet about the thoughts the coordinators have regarding this competition. It also includes a "Contact Us" section that provides the users with an address, phone number, and email address.
 
 
   ![Thoughts & Contact Us](assets/screenshots/talent_knox_thoughts_contact_us.png)
@@ -105,7 +105,7 @@ A fully responsive and modern style three-page website that has good accessibili
   2. __[Google Fonts](https://fonts.google.com/?preview.text=Welcome%20To%20Talent%20Knox!)__
      - Google Fonts were used to import 'Barlow' and 'Raleway' fonts into the style.css which were used throughout the project.
   3. __[Font Awesome](https://fontawesome.com/)__
-     - Font Awesome kit was used on all pages to add icons for aesthetic and UX purposes. The favicon was also created using this programme.
+     - Font Awesome kit was used on all pages to add icons for aesthetic and UX purposes. The favicon was also created using this website.
   4. __[Gitpod](https://www.gitpod.io/)__
      - All the coding was done using Gitpod, also the terminal was used to commit to git and push to Github.
   5. __[GitHub](https://github.com/)__
