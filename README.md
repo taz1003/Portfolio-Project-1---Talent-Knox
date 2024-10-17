@@ -101,29 +101,40 @@ A fully responsive and modern style three-page website that has good accessibili
 
 - __Programmes, Libraries Used__
   1. __Chrome DevTools__
-    - The built-in DevTools program in the Chrome internet browser was used throughout the project to assist with responsiveness and styling of the website.
+     - The built-in DevTools program in the Chrome internet browser was used throughout the project to assist with responsiveness and styling of the website.
   2. __[Google Fonts](https://fonts.google.com/?preview.text=Welcome%20To%20Talent%20Knox!)__
-    - Google Fonts were used to import 'Barlow' and 'Raleway' fonts into the style.css which were used throughout the project.
+     - Google Fonts were used to import 'Barlow' and 'Raleway' fonts into the style.css which were used throughout the project.
   3. __[Font Awesome](https://fontawesome.com/)__
-    - Font Awesome kit was used on all pages to add icons for aesthetic and UX purposes. The favicon was also created using this programme.
+     - Font Awesome kit was used on all pages to add icons for aesthetic and UX purposes. The favicon was also created using this programme.
   4. __[Gitpod](https://www.gitpod.io/)__
-    - All the coding was done using Gitpod, also the terminal was used to commit to git and push to Github.
+     - All the coding was done using Gitpod, also the terminal was used to commit to git and push to Github.
   5. __[GitHub](https://github.com/)__
-    - Github was used to store all the coding after being pushed from Gitpod.
+     - Github was used to store all the coding after being pushed from Gitpod.
   6. __[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) & [W3 Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)__
-    - W3C Markup Validator and W3 Jigsaw CSS Validator were used to test and validate the HTML and CSS coding of all the pages and their styles.
+     - W3C Markup Validator and W3 Jigsaw CSS Validator were used to test and validate the HTML and CSS coding of all the pages and their styles.
   7. __[Screenfly](https://screenfly.org/)__
-    - Screenfly was used to test the responsiveness of the website for various screen sizes.
+     - Screenfly was used to test the responsiveness of the website for various screen sizes.
   8. __[Grammarly](https://app.grammarly.com/)__
-    - Grammarly extension was used in grammar and spell-checking as well as improving all the descriptive content of the website.
+     - Grammarly extension was used in grammar and spell-checking as well as improving all the descriptive content of the website.
+  
 
 ## Testing
-
+  - I tested that this website works perfectly in different browsers: Chrome, Firefox, Opera GX, Edge
+  - I confirmed that this website is responsive, looks aesthetically pleasing and functions properly on all standard screen sizes using the Chrome DevTools and Screenfly, as well as using different mobile phones.
+  - I confirmed that the links and styles presented in the nav bar and the footer works perfectly as intended in all screens and browsers.
+  - I have confirmed that the sign up form works flawlessly including the age and talent selectors, submit and the reset buttons.
 
  - __Bugs Fixed__
     - Fixed error with the help of [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) that occurred in lines 121-127 in the index.html. The fix was done by removing the 'br' attributes from the 'ul' attribute.
  
     - Fixed error that was occurring in lines 94-109 in the signup.html page because there was no 'disabled' Option value as a placeholder for the Select attribute. The fix was done with the help of [W3 HTML reference page](https://www.w3schools.com/tags/tag_option.asp).
 
-
     - Fixed spelling error of the image path in line 61 in the about.html page that occurred during the usage of [W3C Markup Validator](https://validator.w3.org/#validate_by_input).
+
+  - __Validator Testing__
+    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+      - I 
+    - Accessibility
+      - I confirmed that the colors, images and fonts used in this website are easy to read and accessible by running it through lighthouse in Chrome DevTools.
+
+        ![Lighthouse Test Results](assets/screenshots/talent_knox_testing_lighthouse.png)
