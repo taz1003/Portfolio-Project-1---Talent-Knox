@@ -77,7 +77,7 @@ Keeping in mind good User Experience Design (UXD), I have created a fully respon
 
 
 ### Sign Up (third page)
-  - This page will assist interested users in signing up for the competition. They can choose their age from an age-range selector, indicate the location, and select the talent they will be showcasing. An optional 'write about yourself' description box is included provided they are interested. The fully functional submit and reset button changes appearances when hovered upon.
+  - This page will assist interested users in signing up for the competition. They can choose their age from an age-range selector, indicate the location, and select the talent they will be showcasing. An optional 'write about yourself' description box is included provided they are interested. The fully functional submit and reset buttons change appearances when hovered upon.
 
 
   ![SignUp Form](assets/screenshots/talent_knox_sign_up_form.png)
@@ -107,9 +107,9 @@ Keeping in mind good User Experience Design (UXD), I have created a fully respon
   3. __[Font Awesome](https://fontawesome.com/)__
      - Font Awesome kit was used on all pages to add icons for aesthetic and UX purposes. The favicon was also created using this website.
   4. __[Gitpod](https://www.gitpod.io/)__
-     - All the coding was done using Gitpod, also the terminal was used to commit to git and push to Github.
+     - All the coding was done using Gitpod, also the terminal was used to commit to git and push to GitHub.
   5. __[GitHub](https://github.com/)__
-     - Github was used to store all the coding after being pushed from Gitpod.
+     - GitHub was used to store all the coding after being pushed from Gitpod.
   6. __[W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) & [W3 Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)__
      - W3C Markup Validator and W3 Jigsaw CSS Validator were used to test and validate the HTML and CSS coding of all the pages and their styles.
   7. __[Screenfly](https://screenfly.org/)__
