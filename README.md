@@ -99,9 +99,9 @@ Keeping in mind good User Experience Design (UXD), I have created a fully respon
     - Media queries were used to enable the responsiveness of the website for various screen sizes (490px+, 768px+, 992px+, 1200px+, 1800px+, and 2500px+)
 
 
-- __Programmes, Libraries Used__
+- __Programmes & Libraries Used__
   1. __Chrome DevTools__
-     - The built-in DevTools program in the Chrome internet browser was used throughout the project to assist with responsiveness and styling of the website.
+     - The built-in DevTools programme in the Chrome internet browser was used throughout the project to assist with responsiveness and styling of the website.
   2. __[Google Fonts](https://fonts.google.com/?preview.text=Welcome%20To%20Talent%20Knox!)__
      - Google Fonts were used to import 'Barlow' and 'Raleway' fonts into the style.css which were used throughout the project.
   3. __[Font Awesome](https://fontawesome.com/)__
@@ -119,35 +119,62 @@ Keeping in mind good User Experience Design (UXD), I have created a fully respon
   
 
 ## Testing
-  - I tested that this website works perfectly in different browsers: Chrome, Firefox, Opera GX, Edge, etc.
-  - I confirmed that this website is responsive, looks aesthetically pleasing and functions properly on all standard screen sizes using the Chrome DevTools and Screenfly, as well as using different mobile phones.
-  - I confirmed that the links and styles presented in the nav bar and the footer works perfectly as intended in all screens and browsers.
-  - I have confirmed that the sign up form works flawlessly including the age and talent selectors, submit and the reset buttons.
+  - I tested that this website works perfectly in different browsers, such as Chrome, Firefox, Opera GX, Edge, etc.
+  - I confirmed that this website is responsive, looks aesthetically pleasing, and functions properly on all standard screen sizes using Chrome DevTools and Screenfly, as well as using different mobile phones.
+  - I confirmed that the links and styles presented in the nav bar and the footer work perfectly as intended in all screens and browsers.
+  - I have confirmed that the sign-up form works flawlessly including the age and talent selectors, submit, and the reset buttons.
+
 
  - __Bugs Fixed__
     - Fixed error with the help of [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) that occurred in lines 121-127 in the index.html. The fix was done by removing the 'br' attributes from the 'ul' attribute.
  
     - Fixed error that was occurring in lines 94-109 in the signup.html page because there was no 'disabled' Option value as a placeholder for the Select attribute. The fix was done with the help of [W3 HTML reference page](https://www.w3schools.com/tags/tag_option.asp).
 
+
     - Fixed spelling error of the image path in line 61 in the about.html page that occurred during the usage of [W3C Markup Validator](https://validator.w3.org/#validate_by_input).
+
 
   - __Validator Testing__
     - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
       - After running the code in index.html through the W3C Markup Validator for the final time, no errors were found. However, there was one warning about the placement of 'h1' in line 49, which does not affect the website's functionality or interfere with any other code. Everything else is working perfectly.
-      - No errors or issues were returned when running the code present in about.html and signup.html pages through the W3C Markup Validator.
+      - No errors or issues were returned when running the code present in the about.html and signup.html pages through the W3C Markup Validator.
     - [W3 Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
-      - No errors or issues were returned after running the code present in style.css file through the W3 Jigsaw CSS Validator.
+      - No errors or issues were returned after running the code present in the style.css file through the W3 Jigsaw CSS Validator.
     - Accessibility
-      - I confirmed that the colors, images and fonts used in this website are easy to read and accessible by running it through lighthouse in Chrome DevTools.
+      - I confirmed that the colors, images, and fonts used in this website are easy to read and accessible by running all three pages through Lighthouse in Chrome DevTools.
+
 
         ![Lighthouse Test Results](assets/screenshots/talent_knox_testing_lighthouse.png)
+
 
 ## Deployment
   - The website was deployed to Github. The steps to deploy are as follows:
     - Login to [Github](https://www.gitpod.io/) and locate the targeted repository from the repositories menu.
-    - Navigate to the settings tab and locate 'Default Branch' section.
+    - Navigate to the settings tab and locate the 'Default Branch' section.
     - Change the source from 'none' to 'main'
     - Refresh the page (if not automatically refreshed) and navigate back to the Code tab.
     - At the right side, in the Deployments section, click on github-pages and the published link will be presented there.
-  
-  view the live website link here - [Talent Knox](https://taz1003.github.io/Portfolio-Project-1---Talent-Knox/)
+ 
+  View the live website link here - [Talent Knox](https://taz1003.github.io/Portfolio-Project-1---Talent-Knox/)
+
+
+## Credits
+  - __Code__
+    - The code to create the header (nav bar, logo placement, nav links, and styles) and its responsiveness was inspired by the CI [Love Running](https://taz1003.github.io/Love-Running/) project.
+    - The hero image and cover text that were combined using media queries for screens 490px+ were done following the code present in the CI [Love Running](https://taz1003.github.io/Love-Running/) project.
+    - The creation of the gallery section on the second page (About Us) was influenced by the CI [Love Running](https://taz1003.github.io/Love-Running/) project.
+    - The [W3schools](https://www.w3schools.com/TAGS/default.asp) HTML and CSS reference page helped immensely in the creation of this website.
+
+
+  - __Content and Design__
+    - All descriptive content was written by the developer with comprehensive support from [Grammarly](https://app.grammarly.com/) extension.
+    - The website was designed using [MockFlow Wireframe](https://wireframepro.mockflow.com/).
+    - The color palette used in the website was generated using [ColorSpace](https://mycolor.space/) palette generator.
+
+
+  - __Media__
+    - All the images present on the website were taken from [StockCake](https://stockcake.com/) image library.
+ 
+  - __Acknowledgements__
+    - My Mentor for the continuous helpful feedback.
+    - The Code Institute Tutor Support for their support.
