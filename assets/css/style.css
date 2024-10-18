@@ -343,7 +343,8 @@ footer {
         padding-right: 60%;
     }
 
-    /* Changing how #hero section looks */
+    /* Changing how #hero section looks. Inspired by the website "Love Running" 
+    (https://taz1003.github.io/Love-Running/ for more details) */
     #hero-img {
         display: none;
     }
@@ -633,7 +634,7 @@ footer {
         font-size: 120%;
     }
 
-    Footer
+    /* Footer */
     footer {
         padding-top: 3em;
         padding-bottom: 3em;
@@ -680,7 +681,7 @@ footer {
     #signup {
         margin: 5rem 30rem;
     }
-
+    
     .info-input {
         font-size: 100%;
         width: 100%;
